@@ -1,0 +1,58 @@
+.Polaris-Button {
+  position: relative;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  min-width: 2.5rem;
+  margin: 0;
+  margin-left: 1100px;
+  margin-top: 50px;
+  padding: 0.7rem 0.5rem;
+  background: var(--p-surface);
+  box-shadow: var(--p-button-drop-shadow);
+  border-radius: var(--p-border-radius-base);
+  color: var(--p-text);
+  border: 1px solid var(--p-border-neutral-subdued);
+  border-top-color: var(--p-border-subdued);
+  border-bottom-color: var(--p-border-shadow-subdued);
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Polaris-Button--primary {
+  --p-button-color: #024b4d;
+  --p-button-text: white;
+  --p-button-color-hover: #055d5d;
+  --p-button-color-active: #055d5d;
+  --p-button-color-depressed: #055d5d;
+  position: relative;
+  background: var(--p-button-color);
+  border-width: 0;
+  border-color: transparent;
+  box-shadow: var(--p-button-drop-shadow), var(--p-button-inner-shadow);
+  color: var(--p-button-text);
+}
+
+.Polaris-Button--primary:hover {
+  background: var(--p-button-color-hover);
+  border-color: transparent;
+  color: var(--p-button-text);
+}
+
+.Polaris-Button--primary:focus {
+  border-color: transparent;
+  box-shadow: var(--p-button-drop-shadow), var(--p-button-inner-shadow);
+}
+
+.Polaris-Button--primary:active {
+  background: var(--p-button-color-active);
+  border-color: transparent;
+  box-shadow: var(--p-button-drop-shadow), var(--p-button-inner-shadow);
+}

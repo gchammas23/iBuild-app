@@ -1,0 +1,74 @@
+{
+  "name": "ibuild",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@dnd-kit/core": "^2.1.2",
+    "@dnd-kit/modifiers": "^1.0.5",
+    "@dnd-kit/sortable": "^2.0.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.20",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@shopify/polaris": "^6.0.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.0",
+    "axios": "^0.21.1",
+    "chart.js": "^2.9.4",
+    "grapesjs": "^0.16.45",
+    "grapesjs-blocks-basic": "^0.1.8",
+    "grapesjs-lory-slider": "^0.1.5",
+    "grapesjs-plugin-forms": "^2.0.1",
+    "grapesjs-preset-webpage": "^0.1.11",
+    "grapesjs-template-manager": "^1.0.6",
+    "highcharts": "^9.0.1",
+    "highcharts-react-official": "^3.0.0",
+    "material-table": "^1.69.2",
+    "moment": "^1.1.0",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-chartjs-2": "^2.11.1",
+    "react-datepicker": "^3.8.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-numeric-input": "^2.2.3",
+    "react-phone-number-input": "^3.1.16",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-spring": "^8.0.27",
+    "styled-components": "^5.2.1",
+    "validator": "^13.5.2",
+    "victory": "^35.4.12",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
